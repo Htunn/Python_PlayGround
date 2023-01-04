@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "htunn-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1mpue57ml774l"
+s3_prefix = "htunn-lambda"
+region = "ap-southeast-1"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+image_repositories = []
